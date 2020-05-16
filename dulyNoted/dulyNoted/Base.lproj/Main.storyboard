@@ -10,7 +10,7 @@
         <scene sceneID="FBP-az-eiQ">
             <objects>
                 <tableViewController id="FXO-qJ-bg0" customClass="MainViewController" customModule="dulyNoted" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NEw-f6-zas">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NEw-f6-zas">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -63,7 +63,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZfY-Jk-BfY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="685" y="-245"/>
+            <point key="canvasLocation" x="612" y="-245"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="Yhm-EZ-MmX">
@@ -143,7 +143,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ufc-wu-YUT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="xyl-ZJ-tPw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="682.60869565217399" y="403.79464285714283"/>
+            <point key="canvasLocation" x="2322" y="-245"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="N3B-AP-nno">
@@ -159,7 +159,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BuM-4M-pBp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-232" y="404"/>
+            <point key="canvasLocation" x="1459" y="-245"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nyB-A7-ouL">
