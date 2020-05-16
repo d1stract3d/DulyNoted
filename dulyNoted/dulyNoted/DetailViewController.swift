@@ -25,7 +25,7 @@ class DetailViewController: UITableViewController, UITextViewDelegate {
         addDoneButtonOnKeyboard()
     }
     
-    //a function to add the "Done" button to the keyboard
+    //functions to resign keyboard w/ 'done' button
     func addDoneButtonOnKeyboard(){
         let doneToolbar: UIToolbar = UIToolbar(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 50))
         doneToolbar.barStyle = .default
@@ -51,7 +51,7 @@ class DetailViewController: UITableViewController, UITextViewDelegate {
         let name = textFieldText.text ?? ""
         let date = dateFieldDate.date
         notes = Note(text: name, date: date)
+        print("Note saved  @ \(Date())")
     }
-    
     
 }

@@ -8,9 +8,9 @@
 
 import Foundation
 struct Note:Codable {
+    
     var text:String
     var date:Date
-
 
     //locally saving data
     static let DocumentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
@@ -31,4 +31,5 @@ struct Note:Codable {
         Note(text: "Another one...", date: Date())]
         return notes
     }
-    }
+    
+}
